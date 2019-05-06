@@ -18,7 +18,7 @@ namespace WCFClient0427
 
             ServerProxy proxy = new  ServerProxy();
             _heartTimer = new Timer();
-            _heartTimer.Interval = TimeSpan.FromSeconds(2).TotalMilliseconds;
+            _heartTimer.Interval = TimeSpan.FromSeconds(3).TotalMilliseconds;
             
             _heartTimer.Elapsed += (object sender, ElapsedEventArgs e) =>
             {
