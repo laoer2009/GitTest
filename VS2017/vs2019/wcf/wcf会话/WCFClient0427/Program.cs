@@ -31,7 +31,7 @@ namespace WCFClient0427
                         }
                         else
                         {
-                          
+                          ////
                         }
                     }
                     catch (Exception ex)
